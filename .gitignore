@@ -1,46 +1,54 @@
 ```
-# Android build outputs
+# Gradle
+.gradle/
+build/
+target/
+
+# Android
 *.apk
 *.aar
-*.so
-
-# Android studio
-.gradle/
-local.properties
-.settings/
-
-# Android cache
-*/build/
-!app/build/
-app/build/
-
-# Android IDE
-.idea/
-*.iml
-*.iws
-
-# Android logs
-*.log
-
-# Android temp files
-*.tmp
-*.swp
-
-# Android compiled files
-*.class
 *.dex
 
-# Android native libraries
-*.so
-*.dll
-*.dylib
+# Dependencies
+node_modules/
+vendor/bundle
 
-# Android packaging
-*.jar
-*.war
-*.ear
-
-# Android metadata
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 ```
