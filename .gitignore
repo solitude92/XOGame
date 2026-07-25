@@ -1,54 +1,35 @@
 ```
-# Gradle
-.gradle/
+# Build artifacts
 build/
-target/
-
-# Android
 *.apk
 *.aar
-*.dex
+*.jar
+*.class
 
 # Dependencies
+.gradle/
 node_modules/
-vendor/bundle
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
 venv/
 .venv/
-.ENV
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules
-.DS_Store
-Thumbs.db
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment variables
+# Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
+*.iml
+*.iws
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
