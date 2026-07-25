@@ -1,3 +1,46 @@
-# Created by .ignore support plugin (hsz.mobi)
+```
+# Android build outputs
+*.apk
+*.aar
+*.so
+
+# Android studio
+.gradle/
+local.properties
+.settings/
+
+# Android cache
+*/build/
+!app/build/
+app/build/
+
+# Android IDE
 .idea/
 *.iml
+*.iws
+
+# Android logs
+*.log
+
+# Android temp files
+*.tmp
+*.swp
+
+# Android compiled files
+*.class
+*.dex
+
+# Android native libraries
+*.so
+*.dll
+*.dylib
+
+# Android packaging
+*.jar
+*.war
+*.ear
+
+# Android metadata
+.DS_Store
+Thumbs.db
+```
